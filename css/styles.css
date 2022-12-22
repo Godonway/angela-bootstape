@@ -136,6 +136,8 @@ h3{
     .row{
       margin-top:3%;
     }
+.card{
+  margin-top:3%;}
 
    
     @media(max-width:992px){  
@@ -192,5 +194,37 @@ h3{
       display:inline-block;
       font-size:1.5rem;
       padding-left:1.3rem
+    }
+    
+
+/*    icons in footer */
+
+.icon::before {
+      display: inline-block;
+      text-rendering: auto;
+      /* color:#ef8172; */
+      -webkit-font-smoothing: antialiased;
+     
+    }
+
+    .twitter::before {
+      font-family: "Font Awesome 5 Brands"; 
+      content: "\f099";
+      
+    }
+   
+    .facebook::before{
+      font-family: "Font Awesome 5 Brands"; content: "\f39e";
+    }
+
+    .instagram::before{
+      font-family: "Font Awesome 5 Brands";
+       content: "\f16d";
+    }
+
+    .envelope::before{
+      font: var(--fa-font-regular);
+      content: "\f0e0";
+      
     }
     
